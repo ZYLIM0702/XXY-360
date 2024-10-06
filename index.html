@@ -7,7 +7,7 @@
 </head>
 
 <!-- the viewer container must have a defined size -->
-<div id="viewer" style="width: 100vw; height: 100vh;"></div>
+<div id="viewer" style="width: 100vw; height: 100vh;padding:0px;margin:0px;"></div>
 
 <script type="importmap">
   {
@@ -25,8 +25,8 @@
       container: document.querySelector('#viewer'),
     panorama:'DJI_0601.JPG',
     caption: '新血营 | 360合照',
-    defaultPitch: 0.6,
-    defaultZoomLvl: 20,
+    defaultPitch: -2,
+    defaultZoomLvl: 0,
     fisheye: true,
 
   });
