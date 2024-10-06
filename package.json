@@ -1,0 +1,1 @@
+{"description":"PSV Fisheye Demo","main":"index.html","scripts":{"start":"parcel index.html --open","build":"parcel build index.html"},"dependencies":{"@photo-sphere-viewer/core":"5"},"devDependencies":{"parcel":"^2.9.0","typescript":"^5.2.0"}}
